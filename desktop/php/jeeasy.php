@@ -3,8 +3,8 @@ if (!isConnect('admin')) {
 	throw new Exception('{{401 - Accès non autorisé}}');
 }
 ?>
-<br />
-<div class="textInfoJeeasy">{{Bienvenu sur la page de configuration facile de}} <?php echo config::byKey('product_name'); ?></div>
+<br/>
+<div class="textInfoJeeasy">{{Bienvenue sur la page de configuration facile de}} <?php echo config::byKey('product_name'); ?></div>
 <div class="row">
 
 	<div class="col-sm-4" style="margin-bottom: 10px;">
@@ -19,7 +19,7 @@ if (!isConnect('admin')) {
 		<div class="cursor divTableJeeasy" id="bt_jeeasyDiscovery">
 			<i class="fas fa-wifi iconTableJeeasy"></i>
 			<br />
-			{{Detecter mes equipements}}
+			{{Détecter mes équipements}}
 		</div>
 	</div>
 
@@ -49,7 +49,7 @@ if (!isConnect('admin')) {
 
 	<div class="col-sm-4" style="margin-bottom: 10px;">
 		<div class="cursor divTableJeeasy" id="bt_jeeasyWizard">
-			<i class="fa fa-hat-wizard iconTableJeeasy"></i>
+			<i class="fas fa-hat-wizard iconTableJeeasy"></i>
 			<br />
 			{{Relancer le Wizard}}
 		</div>
@@ -57,5 +57,5 @@ if (!isConnect('admin')) {
 
 </div>
 
-<?php include_file('desktop', 'jeeasy', 'js', 'jeeasy'); ?>
-<?php include_file('desktop', 'jeeasy', 'css', 'jeeasy'); ?>
+<?php include_file('desktop', 'jeeasy', 'js', 'jeeasy');?>
+<?php include_file('desktop', 'jeeasy', 'css', 'jeeasy');?>

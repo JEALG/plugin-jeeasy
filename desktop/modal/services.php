@@ -1,11 +1,9 @@
 <?php
 if (!isConnect()) {
-    throw new Exception('{{401 - Accès non autorisé}}');
+	throw new Exception('{{401 - Accès non autorisé}}');
 }
 ?>
-<div class="col-md-12 text-center">
-    <h2>{{Les services complémentaires}}</h2>
-</div>
+<div class="col-md-12 text-center"><h2>{{Les services complémentaires}}</h2></div>
 <div class="nos-services text-center">
     <div id="backup" class="col-xs-18 col-sm-6 col-md-3 services">
         <div class="thumbnail" style="box-shadow: 1px 1px 12px #93cc0180; height: 430px;"><img src="plugins/jeeasy/core/img/service_backup.jpg" alt="" class="img-fullsize" style="border-radius:5px 5px 0 0;">
@@ -42,12 +40,11 @@ if (!isConnect()) {
     </div>
 </div>
 <style>
-    .nos-services {
-        margin-top: 15px;
-        text-align: center;
-    }
-
-    #backup {
-        margin-left: 12%;
-    }
+.nos-services{
+	margin-top:15px;
+	text-align: center;
+}
+#backup{
+	margin-left:12%;
+}
 </style>

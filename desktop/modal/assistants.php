@@ -1,11 +1,9 @@
 <?php
 if (!isConnect()) {
-    throw new Exception('{{401 - Accès non autorisé}}');
+	throw new Exception('{{401 - Accès non autorisé}}');
 }
 ?>
-<div class="col-md-12 text-center">
-    <h2>{{Les assistants vocaux}}</h2>
-</div>
+<div class="col-md-12 text-center"><h2>{{Les assistants vocaux}}</h2></div>
 <div class="col-xs-18 col-sm-12 col-md-6 col-md-offset-3">
     <div class="thumbnail" style="box-shadow: 1px 1px 12px #93cc0180;"><img src="plugins/jeeasy/core/img/service_vocal.jpg" alt="" class="img-fullsize" style="border-radius:5px 5px 0 0;">
         <div class="caption">
